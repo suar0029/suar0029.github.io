@@ -1,0 +1,50 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+header, footer{
+    background-color:chocolate
+}
+
+.site-tittle{
+    
+    color: teal;
+}
+
+#my-image{
+    width: 300px;
+    box-shadow: 0px 0px 2px 1px black, 
+}
+
+ul.a{
+    list-style-type: square;
+}
+.a li:nth-child(n){
+    background: green
+}
+
+ul.no-bullets{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    background-color: teal;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+a:hover {
+    background-color: aquamarine;
+}
+
+
+
