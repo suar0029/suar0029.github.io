@@ -6,76 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTM6130 Final Project - suar0026</title>
     <script src="https://kit.fontawesome.com/7660dec181.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <div class="top-nav">
-        <img src="images/logo.png" alt="logo">
-        <ul>
-            <li><a class="active" href="">Home</a></li>
-            <li><a href="">ABOUT US</a></li>
-            <li><a href="">SERVICES</a></li>
-            <li><a href="">TEAM</a></li>
-            <li><a href="">CONTACT</a></li>
-        </ul>
+    <header>
+        <div class="wrapper">
+            <img src="images/logo.png" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <input class="search" type="text">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="welcome" id="home">
+        <div class="wrapper">
+            <h1>Welcome to three Star Media</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dicta odio doloremque quam voluptatem animi, eligendi pariatur earum fuga quia, numquam, reprehenderit quas saepe veritatis velit. Beatae minima ipsum accusantium?</p>
+            <button>Connect with us <i class="fa-solid fa-play"></i></button>
+        </div>
     </div>
-    <div class="search-box">
-        <input class="search-txt" type="search" name="" placeholder="search">
-        <a class="search-tbn" href="#">
-        <i class="fa-solid fa-magnifying-glass"></i>
-
-        </a>
+    <div class="about-us">
+        <div class="wrapper"> <!--flex .about-us .wrapper -->
+            <h1>About us</h1>
+            <img src="images/about-us.jpg" alt="image of a ping pong table">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquid distinctio esse illum dignissimos praesentium at, voluptas, veniam qui minima, ex perferendis suscipit velit quidem voluptates natus inventore saepe nostrum?</p>
+        </div>
     </div>
-    <div>
-        <h1>Welcome to three Star Media</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dicta odio doloremque quam voluptatem animi, eligendi pariatur earum fuga quia, numquam, reprehenderit quas saepe veritatis velit. Beatae minima ipsum accusantium?</p>
-        <button>Connect with us</button>
-        <i class="fa-solid fa-play"></i>
-       
-    </div>
-    <div>
-        <img src="images/about-us.jpg" alt="image of a ping pong table">
-        <h1>About us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquid distinctio esse illum dignissimos praesentium at, voluptas, veniam qui minima, ex perferendis suscipit velit quidem voluptates natus inventore saepe nostrum?</p>
-    </div>
-    <div class="services">
+    <div class="services"> <!-- grid -->
         <h1>Our Services</h1>
-        <img src="images/digital.jpg" alt="digital">
-        <h1>Digital Tranformation</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, aliquam nulla numquam, fuga ratione odit ipsam quasi tempora accusamus perferendis atque earum aliquid corporis veniam doloribus quos facilis iure neque.</p>
-        <button>Digital Transformation</button>
-        <i class="fa-solid fa-play"></i>
+        <div class="digital">
+            <img src="images/digital.jpg" alt="digital">
+            <h2>Digital Tranformation</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, aliquam nulla numquam, fuga ratione odit ipsam quasi tempora accusamus perferendis atque earum aliquid corporis veniam doloribus quos facilis iure neque.</p>
+            <button>Digital Transformation</button>
+            <i class="fa-solid fa-play"></i>
+        </div>
 
-    </div>
-    <div class="marketing">
-        <img src="images/marketing.jpg" alt="marketing">
-        <h1>Marketing</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum placeat ipsum aliquid ad iste aliquam illum quisquam tenetur consectetur, eum facilis sapiente aspernatur sequi. Delectus ea eum laudantium eaque facilis.</p>
-        <button>Marketing plans</button>
+        <div class="marketing">
+            <img src="images/marketing.jpg" alt="marketing">
+            <h2>Marketing</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum placeat ipsum aliquid ad iste aliquam illum quisquam tenetur consectetur, eum facilis sapiente aspernatur sequi. Delectus ea eum laudantium eaque facilis.</p>
+            <button>Marketing plans</button>
+            <i class="fa-solid fa-play"></i>
+        </div>
+        <div class="video">
+            <img src="images/video.jpg" alt="video">
+            <h1>Video Production</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident qui hic quos itaque sequi excepturi dolore porro, repellendus ea consectetur rerum explicabo earum corporis quae molestiae ullam libero placeat consequuntur!</p>
+        <button>Video Plans</button>
         <i class="fa-solid fa-play"></i>
+        </div>
+        <div class="web-development">
+            <img src="images/web.jpg" alt="web">
+            <h1>Web development</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque est soluta cumque, perferendis veritatis eligendi, quis adipisci officiis rerum veniam deserunt, assumenda sit quod. Adipisci impedit minus quae ea magnam.</p>
+            <button>Web Plans</button>
+            <i class="fa-solid fa-play"></i>
+        </div>
+        <div class="print">
+            <img src="images/print.jpg" alt="print">
+            <h1>Print</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti recusandae quod quo magni aut voluptate odit suscipit vitae. Beatae repellendus aliquid dolore quia illo quod labore nobis sit commodi id?</p> 
+            <button>Print</button>
+            <i class="fa-solid fa-play"></i>
+        </div>
     </div>
-    <div class="video">
-        <img src="images/video.jpg" alt="video">
-        <h1>Video Production</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident qui hic quos itaque sequi excepturi dolore porro, repellendus ea consectetur rerum explicabo earum corporis quae molestiae ullam libero placeat consequuntur!</p>
-       <button>Video Plans</button>
-       <i class="fa-solid fa-play"></i>
-    </div>
-    <div class="web development">
-        <img src="images/web.jpg" alt="web">
-        <h1>Web development</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque est soluta cumque, perferendis veritatis eligendi, quis adipisci officiis rerum veniam deserunt, assumenda sit quod. Adipisci impedit minus quae ea magnam.</p>
-        <button>Web Plans</button>
-        <i class="fa-solid fa-play"></i>
-    </div>
-    <div class="print">
-        <img src="images/print.jpg" alt="print">
-        <h1>Print</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti recusandae quod quo magni aut voluptate odit suscipit vitae. Beatae repellendus aliquid dolore quia illo quod labore nobis sit commodi id?</p> 
-        <button>Print</button>
-        <i class="fa-solid fa-play"></i>
-    </div>
-    <div class="Our Vision">
+    <div class="our-Vision">
         <!--background image would be stylize in css-->
         <h1>Our vision</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum exercitationem tempora assumenda sequi minus temporibus deserunt provident possimus ipsam dolores, laudantium voluptas hic minima expedita a impedit suscipit fugiat delectus.</p>
@@ -84,7 +93,7 @@
         <!-- learn button would be stylize in css-->
         
     </div>
-    <section class="wrapper">
+    <section class="our-team">
         <h1>Our Team</h1>
         <img src="images/john.jpg" alt="John Doe">
         <h1>John Doe</h1>
@@ -94,8 +103,7 @@
         <h1>Bob Rite</h1>
         <h2>CFO and Co-owner</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat magnam, quos earum labore excepturi nobis dolor dolores officiis. Quam, fugiat minus? Ducimus pariatur dolores neque accusamus tempora nemo molestias enim.</p>
-    </section><div class="Our Team">
-    </div>
+    </section>
     <div class="contact">
         <h1>Contact us</h1>
         <h2>Send us a message</h2>
@@ -109,21 +117,25 @@
         </button>
         </div>
     <div class="Schedule">
-        <!--table would be structured better on css-->
-        <h1>Hours of operation</h1>
+        
+        
         <table style="width:100%">
-            <tr>
-                <th>Days</th>
-                <th>Hours</th>
-            </tr>
-            <tr>
-                <td>Monday-Friday</td>
-                <td>9 AM - 6 PM</td>
-            </tr>
-            <tr>
-                <td>Saturday-Sunday</td>
-                <td>Closed</td>
-            </tr>
+            <caption>Hours of operation</caption>
+            <thead>
+                <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                </tr>
+                <tr>
+                     <td>Monday-Friday</td>
+                    <td>9 AM - 6 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday-Sunday</td>
+                    <td>Closed</td>
+             </tr>
+            </thead>
+           
         </table>
 
     </div>
@@ -136,10 +148,10 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179268.45400089107!2d-75.79621021863893!3d45.40793618207598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1ses-419!2sca!4v1650214887094!5m2!1ses-419!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
-    
-
-
-
-    
+</main>
 </body>
+<footer>
+    Copyright Three Star Media, 2020
+    All images are taken from Unsplash
+</footer>
 </html>
